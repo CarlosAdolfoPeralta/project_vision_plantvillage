@@ -1,0 +1,12 @@
+{
+  "modelo": "tl_mobilenetv3small_224_cw0.5_full_full.keras",
+  "fuente_externa": "plantdoc",
+  "n_imagenes_externas": 2569,
+  "n_clases_externas": 28,
+  "accuracy_top1": 0.0876,
+  "accuracy_top3": 0.2289,
+  "f1_macro": 0.0954,
+  "referencia_plantvillage_accuracy": 0.987,
+  "referencia_plantvillage_f1_macro": 0.982,
+  "ratio_atencion_hoja_mediana": 1.403
+}

@@ -1,0 +1,15 @@
+{
+  "experimento": "baseline_cw_128_subset",
+  "img_size": [
+    128,
+    128
+  ],
+  "subset": true,
+  "class_weight": true,
+  "epocas_corridas": 15,
+  "minutos_entrenamiento": 20.0,
+  "accuracy": 0.758,
+  "f1_macro": 0.7232,
+  "f1_macro_sin_fondo": 0.7233,
+  "params": 103191
+}

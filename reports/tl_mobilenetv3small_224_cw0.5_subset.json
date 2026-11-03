@@ -1,0 +1,15 @@
+{
+  "experimento": "tl_mobilenetv3small_224_cw0.5_subset",
+  "img_size": [
+    224,
+    224
+  ],
+  "subset": true,
+  "class_weight": true,
+  "epocas_corridas": 32,
+  "minutos_entrenamiento": 0.2,
+  "accuracy": 0.9681,
+  "f1_macro": 0.9598,
+  "f1_macro_sin_fondo": 0.9592,
+  "params": 158888
+}

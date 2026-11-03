@@ -1,0 +1,11 @@
+# Desarrollado con Python 3.13 y datasets 5.1.0.
+# Son versiones mínimas; para fijar las exactas de tu entorno: pip freeze > requirements-lock.txt
+tensorflow>=2.16
+datasets>=3.0
+huggingface_hub>=0.24
+scikit-learn>=1.3
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+pillow>=10.0
+ipykernel>=6.0

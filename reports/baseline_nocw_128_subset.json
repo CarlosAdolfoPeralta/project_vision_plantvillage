@@ -1,0 +1,15 @@
+{
+  "experimento": "baseline_nocw_128_subset",
+  "img_size": [
+    128,
+    128
+  ],
+  "subset": true,
+  "class_weight": false,
+  "epocas_corridas": 15,
+  "minutos_entrenamiento": 17.9,
+  "accuracy": 0.8033,
+  "f1_macro": 0.7458,
+  "f1_macro_sin_fondo": 0.7426,
+  "params": 103191
+}

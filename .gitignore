@@ -1,0 +1,27 @@
+# Datos, cachés y modelos (pesados, se regeneran)
+data/
+models/
+*.keras
+*.h5
+*.npz
+*.npy
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

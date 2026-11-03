@@ -1,0 +1,15 @@
+{
+  "experimento": "tl_mobilenetv3small_224_cw0.0_full",
+  "img_size": [
+    224,
+    224
+  ],
+  "subset": false,
+  "class_weight": false,
+  "epocas_corridas": 27,
+  "minutos_entrenamiento": 0.3,
+  "accuracy": 0.9847,
+  "f1_macro": 0.98,
+  "f1_macro_sin_fondo": 0.9796,
+  "params": 158888
+}
