@@ -37,9 +37,9 @@ def load_splits(repo=REPO, val_size=0.15, test_size=0.15):
         return ds["train"].select(tr_idx), ds["train"].select(va_idx), ds["test"]
 
     print(
-        "AVISO: el dataset no trae leaf_id; se usa un split estratificado por clase. "
-        "Puede haber fuga entre imágenes de una misma hoja, por lo que las métricas "
-        "pueden ser algo optimistas."
+        "WARNING: the dataset does not include leaf_id; a class-stratified split is used. "
+        "There may be leakage between images of the same leaf, so the metrics "
+        "may be somewhat optimistic."
     )
     full = concatenate_datasets([ds[s] for s in ds.keys()])
     y = np.array(full["label"])
@@ -81,7 +81,7 @@ def to_arrays(hf_ds, img_size=IMG_SIZE, name=None, verbose=True):
         X[i] = np.asarray(ex["image"].convert("RGB").resize((w, h)), dtype=np.uint8)
         y[i] = ex["label"]
         if verbose and (i + 1) % 5000 == 0:
-            print(f"  {i + 1}/{n} imágenes procesadas")
+            print(f"  {i + 1}/{n} processed images")
 
     if cache_file is not None:
         np.savez(cache_file, X=X, y=y)
